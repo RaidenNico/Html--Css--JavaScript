@@ -2,7 +2,7 @@
 
 body {
   margin: 0 20px;
-  background-color: hwb(54 50% 0%);
+  background-image: url("../assets/informacion/fondo_02.jpg");
   font-family: sans-serif;
 }
 
@@ -13,21 +13,21 @@ h1 {
 main {
   display: block;
   overflow: auto;
-  background-color: white;
+  background-color: burlywood;
 }
 
 section {
   float: left;
   width: 34rem;
-  border:  hwb(43 20% 0%) 5px solid;
+  border:  hwb(0 20% 0%) 5px solid;
   border-top: none;
   margin: 10px;
-  background-color: hwb(54 20% 0%);
+  background-color: hwb(183 20% 0%);
 }
 
 h2 {
   margin: 0;
-  background-color: hwb(43 20% 0%);
+  background-color: darkseagreen;
 }
 
 article {
@@ -36,7 +36,7 @@ article {
   border: hwb(28 0% 0%) 5px solid;
   border-top: none;
   margin: 10px;
-  background-color: hwb(49 20% 0%);
+  background-color: blanchedalmond;
 }
 
 h3 {

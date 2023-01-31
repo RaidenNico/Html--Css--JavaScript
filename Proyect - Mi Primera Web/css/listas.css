@@ -1,31 +1,35 @@
 @import url("mclibre-pie.css");
 
 body {
-  background: lightgray;
+  background-image: url("../assets/Evangelion/fondo.jpg");
   font-family: sans-serif;
+  text-align: center;
 }
 
 h2 {
   clear: both;
   margin-bottom: 0.5em;
   padding-top: 1em;
+  text-align: center;
 }
 
 ul {
   list-style-type: none;
+  
 }
 
 ul.lista0 {
   list-style-type: disc;
+  
 }
 
 ul.lista1 li {
   float:left;
-  width: 10em;
+  width: 14em;
   border: 5px dashed #954A95;
   margin-right: 1em;
   padding: 0.5em 0em;
-  background-color: #5ACE77;
+  background-color: aquamarine;
   color: #5E0272;
   font-weight: bold;
   text-align: center;
@@ -52,8 +56,8 @@ ul.lista2 li:hover {
 
 ul.lista3 {
   width: 11em;
-  border: black 1px solid;
   padding: 0.5em;
+  padding-left: 15cm;
   text-align: center;
 }
 

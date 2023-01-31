@@ -3,33 +3,40 @@
 @media screen and (max-width: 1024px){
   h1 {
     font-size: 300%;
+    
   }
 
   h2 {
     margin: 20px 0 0;
     font-size: 150%;
+    
   }
 
   section {
     margin: 10px;
+    
   }
 
   article {
     margin: 10px 0;
+    
   }
 }
 
 @media screen and (min-width: 1024px){
   h1 {
     font-size: 400%;
+    
   }
 
   h2 {
+    
     margin: 0 10px;
     font-size: 200%;
   }
 
   section#escritorio {
+    
     position: absolute;
     top: 6em;
     left: 10%;
@@ -39,6 +46,7 @@
   }
 
   section#internet {
+    
     position: absolute;
     top: 6em;
     right: 10%;
@@ -48,11 +56,13 @@
   }
 
   article {
+    
     margin: 20px 40px;
   }
 }
 
 body {
+  background-image: url("../assets/informacion/fondo\ de\ pantalla\ de\ paraiso\ de\ agua\ 12.jpg");
   margin: 0;
   background-color: #E0E1EB;
   font-family: sans-serif;
