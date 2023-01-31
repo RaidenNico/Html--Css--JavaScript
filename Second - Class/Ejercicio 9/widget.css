@@ -1,14 +1,5 @@
 @import url("mclibre-pie.css");
 
-/* Paginas web HTML y hojas de estilo CSS   */
-/* Bartolome Sintes Marco                   */
-/* https://www.mclibre.org                  */
-/*                                          */
-/* CSS ejercicio: Software libre 4          */
-/*                                          */
-/* 18 de enero de 2016                      */
-/*                                          */
-
 @media screen and (max-width: 1024px){
   h1 {
     font-size: 300%;

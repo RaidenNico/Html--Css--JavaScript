@@ -1,14 +1,5 @@
 @import url("mclibre-pie.css");
 
-/* Paginas web HTML y hojas de estilo CSS   */
-/* Bartolome Sintes Marco                   */
-/* https://www.mclibre.org                  */
-/*                                          */
-/* CSS ejercicio: The Jargon file           */
-/*                                          */
-/* 3 de octubre de 2022                     */
-/*                                          */
-
 body {
   margin: 0 20px;
   background-color: hwb(54 50% 0%);
