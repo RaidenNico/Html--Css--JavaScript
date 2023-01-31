@@ -1,0 +1,92 @@
+body{
+    background-image: url("../assets/fondo.jpg");
+    max-width: inherit;
+    text-align: center;
+ 
+    
+    /*background-repeat:no-repeat;
+    background-position: center center;*/
+}
+
+
+h1
+{   
+    text-align: center;
+    font-size: 1cm;
+    border-bottom: dotted 1px solid;
+    background-color: aquamarine;
+    background-image: "../assets/xd.gif";
+    
+    
+}
+
+h2
+{
+
+    text-align: center;
+    font-size: 1cm;
+    color: aquamarine;
+    
+    
+}
+h3
+{
+
+    text-align: center;
+    font-size: 1cm;
+    color: aquamarine;
+    
+    
+
+}
+h5
+{
+
+  background-color: cornsilk;
+    
+}
+h6
+{
+
+    text-align: center;
+    font-size: 0.8cm;
+    color: red;
+}
+h4
+    {
+    
+        text-align: center;
+        font-size: 0.8cm;
+        color: aquamarine;
+}
+p{  
+    font-size: x-large;
+    color: white;
+}
+img{
+    border-radius: 100px ;
+    padding: 1cm;
+    width: 100px;
+    height: 100;
+}
+
+p.rojo{
+    color: red;
+}
+
+p.rosado{
+    color: pink;
+}
+
+p.amarillo{
+    color: yellow;
+}
+
+p.azul{
+    color: darkblue;
+}
+
+h6{
+    background-image: url("../assets/xd.gif");
+}
+
