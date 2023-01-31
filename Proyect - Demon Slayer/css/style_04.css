@@ -1,0 +1,25 @@
+h5
+{
+
+    text-align: center;
+    font-size: 0.8cm;
+    color: red;
+}
+
+
+h1{
+text-align: center;
+font-size: 0.8cm;
+color: orange;
+
+}
+
+body {
+    background-image: url("../assets/Fondo_03.jpg");
+  font-family: sans-serif;
+  font-size: 1.25rem;
+}
+
+h2{
+    text-align: center;
+}

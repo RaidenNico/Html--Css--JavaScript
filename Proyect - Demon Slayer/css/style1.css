@@ -1,5 +1,5 @@
 body{
-    background-image: url("../assets/Fondo.jpg");
+    background-image: url("../assets/Fondo_03.jpg");
     max-width: inherit;
     /*background-repeat:no-repeat;
     background-position: center center;*/
@@ -17,13 +17,31 @@ h1
 h2
 {
 
-    text-align: left;
+    text-align: center;
     font-size: 1cm;
     color: darkorange;
 }
+h3
+{
 
+    text-align: center;
+    font-size: 1cm;
+    color: red;
+}
+h5
+{
 
+    text-align: center;
+    font-size: 0.8cm;
+    color: red;
+}
+h6
+{
 
+    text-align: center;
+    font-size: 0.8cm;
+    color: red;
+}
 p{  
     font-size: x-large;
     color: darkorange;
@@ -31,7 +49,7 @@ p{
 img{
     border-radius: 100px ;
     padding: 1cm;
-    width: 1800px;
+    width: 1260px;
     height: 1000;
 }
 
