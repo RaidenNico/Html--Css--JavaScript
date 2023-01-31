@@ -29,6 +29,7 @@ p{
     color: darkorange;
 }
 img{
+    border-radius: 100px ;
     padding: 1cm;
     width: 1800px;
     height: 1000;
