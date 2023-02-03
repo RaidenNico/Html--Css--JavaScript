@@ -1,6 +1,7 @@
 body{
     background-image: url("../assets/Fondo_03.jpg");
     max-width: inherit;
+    text-align: center;
     /*background-repeat:no-repeat;
     background-position: center center;*/
 }
