@@ -1,0 +1,57 @@
+.navbar{
+    margin-bottom: 0;
+}
+.jumbotron{
+    background: #dfe3e6;
+    color: #fff;
+    padding: 4px 0;
+    
+}
+/* GAAAAAAAAAAAAAA */
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.post{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+    
+}
+.post .post-title a{
+    color: #333;
+}
+.post .thumb{
+    margin-right: 10px;
+    width: 40%;
+}
+.post .thumb{
+    width: 100%;
+}
+.post .contenedor-botones{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .post .thumb{
+        width: 100%;
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+.row{
+    
+    padding-left: 20%;
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    background-color: white;
+    margin-left: 25%;
+    
+}
+
+.container{
+    background-color: grey;
+}
