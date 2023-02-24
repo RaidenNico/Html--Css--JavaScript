@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Selecciones múltiples con jQuery</h1>
+      <h4 class="principal">h4 h4 h4 h4 h4En este ejemplo usamos un selector múltiple, que
+        selecciona todos los párrafos, los encabezados h2 con
+       <br/> clase principal y el elemento con id 
+       primero.</h4> 
+       <h2 class="principal">h2 h2h h2h h2 h2Un encabezado h2 (será marcado 
+       por ser h2 con clase principal)</h1>
+        <p>Un párrafo(será seleccionado como todos
+       los párrafos)</p>
+      
+       <p>Un párrafo(será seleccionado como todos
+        los párrafos)</p>
+        <p>Un párrafo(será seleccionado como todos
+          los párrafos)</p>
+        <div>Este es un div</div>
+        <br />
+        <div id="primero"> pppppppppp Este es otro div, que será
+        marcado por tener id primero</div>
+        <br />
+        <div>Este es otro div</div>
+        <p>Otro párrafo (será seleccionado como 
+        todos los párrafos)
+        <h2>Otro h2 que no será seleccionado por 
+        no ser clase principal</h2>
+        <div>Este es otro div</div>
+<script src="js/jquery-3.6.3.min.js"></script>
+</body>
+</html>
+
+<script>
+    $(document).ready(function(){
+      $("p, #primero, h2.principal").css(
+             {"background-color":"darkblue",
+               "color":"yellow"});
+     });
+</script>

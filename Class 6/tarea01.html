@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+ <html lang="es">
+ <head>
+  <meta charset="utf-8"> 
+  <title>Javascript: jQuery</title>
+  <link rel="stylesheet" href="css/estilo10.css">
+
+
+  </head>
+  <body>
+  <h1>Programando con jQuery</h1>
+  <p>1. Uso de hide/show</p>
+  
+  <div id="id0">Me ocultaré y me mostraré</div>
+  <button id="ev0">Ocultar</button>
+  <button id="ev1">Mostrar</button><br/>
+  
+
+<script src="js/jquery-3.6.3.min.js"></script>
+</body>
+</html>
+
+
+<script type="text/javascript">
+	$(document).ready(function (){
+		$("#ev2").click(function(){
+			$("#id1").hide(1000);//"easing"
+		});
+
+		$("#ev3").click(function(){
+			$("#id1").show(1000);//"easing"
+		});
+	});
+</script>

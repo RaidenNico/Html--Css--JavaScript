@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <div id="capa" style="padding: 10px; background-color:#ff8800;"> Pon el raton encima de esta capa</div>
+    <br>
+    <div id="mensaje" style="display: none;"> 
+        has puesto el mouse encima <br>
+        Ahora Quitalo
+    </div>
+
+    <!--<input type="button" value="Boton A" onclick="$('#capa').html('Haz Hecho clic en el botón <b> A</b>')">
+    <input type="button" value="Boton B" onclick="$('#capa').html('Haz Hecho clic en el botón <b> B</b>')">
+    -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+</body>
+</html>
+<script>
+    $("#capa").mouseenter(function(evento){
+        $("#mensaje").css("display","block");
+    });
+    $("#capa").mouseleave(function(evento){
+        $("#mensaje").css("display","none");
+    });
+</script>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css"> 
+        .clasecss{   
+            background-color: #ff8800;   
+            font-weight: bold; 
+            } 
+    </style>
+    
+</head>
+<body>
+    <div id="capa" class="miClase"> 
+        Esta capa es independiente y voy a añadir y eliminar clases css sobre ella 
+    </div>
+    <div id="capa2" class="miClase"></div>
+    <br> <br> 
+    <a href="https://www.idat.edu.pe">
+        Añadir y quitar clase en la capa de arriba
+    </a>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+</body>
+</html>
+
+<script> 
+    $(document).ready(function(){   
+        $("a").mouseover(function(event){      
+            $("#capa").addClass("clasecss");   
+        });   
+        $("a").mouseout(function(event){      
+            $("#capa").removeClass("clasecss");   
+        }); 
+    }); 
+</script>

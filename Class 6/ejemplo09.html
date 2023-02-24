@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        width: 100%;
+        margin: 0 auto; 
+        } 
+    </style>
+</head>
+<body>
+    <h1 id='uno'>Seleccionar enlaces con title</h1>
+<h1 id='dos'>Seleccionar enlaces con title=Ejemplo</h1>
+<h1 id='tres'>Seleccionar enlaces con title distinto de Ejemplo</h1>
+<h1 id='cuatro'>Seleccionar enlaces cuyo title comienza por Ejemplo</h1>
+<h1 id='cinco'>Seleccionar enlaces cuyo title termina por Ejemplo</h1>
+<h1 id='seis'>Seleccionar enlaces cuyo title contiene Ejemplo</h1>
+<h1 id='siete'>Comnbinación de selectores de atributos: Que tenga title = Ejemplo, y que el ID contenga ejemplo</h1>
+<br><br><br> 
+<a href="">Enlace 1</a><br>
+<a href="" title="Enlace 1">Enlace 2: title = Enlace 1</a><br>
+<a href="" title="Ejemplo" id="idejemplo-prueba">Enlace 3: title = Ejemplo, id = id-ejemplo-prueba</a><br>
+<a href="">Enlace 4</a><br>
+<a href="">Enlace 5</a><br>
+<a href="">Enlace 6</a><br>
+<a href="" title="otro Ejemplo">Enlace 7: title = otro Ejemplo</a><br>
+<a href="">Enlace 8</a><br>
+<a href="" title="Ejemplos">Enlace 9: title = ejemplos</a><br>
+<a href="" title="Ejemplo final">Enlace 10: title = Ejemplo final</a>
+
+
+<script src="js/jquery-3.6.3.min.js"></script>
+</body>
+</html>
+
+<script>
+   $(document).ready(function() {
+        $('#uno').click(function(){ 
+            $('a[title]').css({"border":"1px solid red"});
+        }); 
+        $('#dos').click(function(){ 
+            $('a[title="Ejemplo"]').css({"border":"1px solid red"});
+        });
+        $('#tres').click(function(){ 
+            $('a[title!="Ejemplo"]').css({"border":"1px solid red"});
+        });
+        $('#cuatro').click(function(){ 
+            $('a[title^="Ejemplo"]').css({"border":"1px solid red"});
+        }); 
+        $('#cinco').click(function(){ 
+            $('a[title$="Ejemplo"]').css({"border":"1px solid red"});
+        }); 
+        $('#seis').click(function(){ 
+            $('a[title*="Ejemplo"]').css({"border":"1px solid red"});
+        }); 
+        $('#siete').click(function(){ 
+            $('a[title="Ejemplo"][id*=ejemplo]').css({"border":"1px solid red"});
+        }); 
+        });
+</script>
