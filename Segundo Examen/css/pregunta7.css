@@ -1,0 +1,25 @@
+#div1 {
+  width: 600px;
+  height: 400px;
+  background-image: url("/Segundo Examen/images/1.jpeg");
+  background-size: cover;
+  padding: 20px;
+  transition: opacity 2s ease-in-out;
+}
+
+#div2 {
+  width: 600px;
+  height: 400px;
+  background-image: url("/Segundo Examen/images/2.jpeg");
+  background-size: cover;
+  padding: 20px;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+#text {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 150px;
+}
