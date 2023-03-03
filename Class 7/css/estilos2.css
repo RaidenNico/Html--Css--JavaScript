@@ -1,0 +1,14 @@
+body {
+    font-size:14px; 
+    font-family:arial;
+}
+
+a {
+    color:#c00; 
+    text-decoration:none;
+}
+
+a:hover {
+    color:#f00; 
+    text-decoration:underline;
+}

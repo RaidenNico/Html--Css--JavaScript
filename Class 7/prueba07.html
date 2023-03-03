@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery-3.6.3.min.js"></script>
+<script> 
+$(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown(5000);
+    });
+    $("#stop").click(function(){
+        $("#panel").stop();
+    });
+});
+</script>
+ 
+<style> 
+#panel {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+}
+#flip{
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(17, 221, 41);
+    color: white;
+    border: solid 1px rgb(17, 221, 41);
+    border-radius: 3px;
+}
+#panel {
+    padding: 50px;
+    display: none;
+}
+</style>
+</head>
+<body>
+ 
+<button id="stop">Parar sliding</button>
+
+<div id="flip">Haga clic para deslizar el panel hacia abajo</div>
+<div id="panel">Hola Mundo!</div>
+
+</body>
+</html>

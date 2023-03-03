@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery-3.6.3.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("p").hide("slow", function(){
+            alert("El párrafo ahora está oculto.");
+        });
+    });
+});
+</script>
+</head>
+<body>
+
+<button>Esconder</button>
+
+<p>Este es un párrafo con poco contenido.</p>
+
+</body>
+</html>
